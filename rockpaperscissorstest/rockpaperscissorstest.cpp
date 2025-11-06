@@ -19,6 +19,10 @@ namespace rockpaperscissorstest
 		{
 			Assert::AreEqual("Draw", getWinner("Paper", "Paper"));
 		}
+		TEST_METHOD(TestDraw_Scissors)
+		{
+			Assert::AreEqual("Draw", getWinner("Scissors", "Scissors"));
+		}
 
 	};
 }
