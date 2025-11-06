@@ -6,6 +6,8 @@ char* getWinner(char player1[], char player2[])
 		return "Draw";
 	if (strcmp(player1, "Paper") == 0 && strcmp(player2, "Paper") == 0)
 		return "Draw"; 
+	if (strcmp(player1, "Scissors") == 0 && strcmp(player2, "Scissors") == 0)
+		return "Draw";
 
 	return;
 
